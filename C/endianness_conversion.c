@@ -18,9 +18,16 @@ int main()
 {
     int num = 0x12345678;
 
-    printf("Original number in hexadecimal: %x\n", num);
+    printf("Original number in hexadecimal : %x\n", num);
 
     num = convert_endianness(num);
 
     printf("Converted number in hexadecimal: %x\n", num);
+
 }
+
+/* 
+OUTPUT:
+Original number in hexadecimal : 12345678
+Converted number in hexadecimal: 78563412
+*/
