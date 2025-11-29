@@ -14,4 +14,5 @@ if __name__ == "__main__":
     text = "hello world"
     result = freq_chars(text)
     for char, count in result.items():
+
         print(f"'{char}': {count}")
